@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 15px;
+  width: 25rem;
+  max-height: 80vh;
+  padding: 20px;
+  box-shadow: 6px 6px 0px #000000;
+  border: 2px solid black;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.text-one {
+  font-size: smaller;
+  font-weight: 600;
+}
+
+.text-two {
+  color: grey;
+  font-size: 15px;
+}
+
+.learn-one {
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.4rem 0.8rem;
+  width: fit-content;
+  text-align: left;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.learn-two {
+  font-weight: 800;
+}
+
+.picture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.wrapper {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.wrapper > p {
+  font-weight: bold;
+}
