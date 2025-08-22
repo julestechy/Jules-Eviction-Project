@@ -54,13 +54,13 @@ body {
 }
 
 .title {
-  font-weight: 800;
-  font-size: larger;
+  font-weight: 700;
+  font-size: x-large;
 }
 
 .picture {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   object-fit: cover;
   border-radius: 100%;
 }
@@ -74,4 +74,5 @@ body {
 
 .wrapper > p {
   font-weight: bold;
+  font-size: small;
 }
