@@ -33,17 +33,17 @@ body {
   border-radius: 10px;
 }
 
-.text-one {
+.date {
   font-size: smaller;
   font-weight: 600;
 }
 
-.text-two {
+.description {
   color: grey;
   font-size: 15px;
 }
 
-.learn-one {
+.button {
   background-color: hsl(47, 88%, 63%);
   padding: 0.4rem 0.8rem;
   width: fit-content;
@@ -52,7 +52,7 @@ body {
   font-weight: 700;
 }
 
-.learn-two {
+.title {
   font-weight: 800;
 }
 
